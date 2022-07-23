@@ -1,0 +1,158 @@
+Algoritmo "escolha do veiculo"
+
+Var
+
+n: inteiro
+
+Inicio
+
+escreval("Tipo de Veiculo")
+escreval("1-terrestre")
+escreval("2-aereo")
+escreval("3-aquatico")
+leia(n)
+
+limpatela()
+
+escolha (n)
+caso 1
+escreval("")
+
+se n=1 entao
+escreval ("1-cabe apenas uma pessoa")
+escreval ("2-usa capacete")
+escreval ("3-tem passageiro")
+leia (n)
+
+limpatela()
+
+escolha (n)
+caso 2
+escreva ("moto")
+
+caso 1
+escreval ("1-é pesado")
+escreval ("2-tem pedal")
+leia (n)
+
+escolha (n)
+caso 1
+escreva ("trator")
+caso 2
+escreva ("bicicleta")
+leia (n)
+
+caso 3
+escreval ("1-usa trilho")
+escreval ("2-anda na pista")
+leia (n)
+
+escolha (n)
+caso 1
+escreva ("trem")
+caso 2
+escreval ("1-é alto")
+escreval ("2-veiculo leve")
+leia (n)
+
+escolha (n)
+caso 2
+escreva ("carro")
+caso 1
+escreval ("1-usa carroceria")
+escreval ("2-pode ter cobrador")
+leia (n)
+
+escolha (n)
+caso 1
+escreva ("caminhão")
+caso 2
+escreva ("ônibus")
+leia (n)
+
+fimescolha
+fimescolha
+fimescolha
+fimescolha
+fimescolha
+
+fimse
+
+caso 2
+escreval("")
+
+se n=2 entao
+escreval ("1-precisa pular")
+escreval ("2-viaja dentro")
+leia (n)
+fimse
+
+limpatela()
+
+escolha (n)
+caso 1
+escreva ("para quedas")
+
+caso 2
+escreval ("1-é devagar")
+escreval ("2-tem piloto")
+leia (n)
+
+escolha (n)
+caso 1
+escreva ("balão")
+caso 2
+escreval ("1-possui asas fixas")
+escreval ("2-faz voo vertical")
+leia (n)
+
+escolha (n)
+caso 1
+escreva ("avião")
+caso 2
+escreva ("helicoptero")
+
+fimescolha
+fimescolha
+fimescolha
+
+caso 3
+escreval("")
+
+se n=3 entao
+escreval ("1-é coberto de agua")
+escreval ("2-navega na agua")
+leia (n)
+fimse
+
+escolha (n)
+caso 1
+escreva ("submarino")
+
+caso 2
+escreval ("1-possui vela")
+escreval ("2-tem motor")
+leia (n)
+
+escolha (n)
+caso 1
+escreva ("barco")
+caso 2
+escreval ("1-é alto")
+escreval ("2-pode ser descoberto")
+leia (n)
+
+escolha (n)
+caso 1
+escreva ("navio")
+caso 2
+escreva ("lancha")
+leia (n)
+
+fimescolha
+fimescolha
+fimescolha
+fimescolha
+fimescolha
+
+Fimalgoritmo
