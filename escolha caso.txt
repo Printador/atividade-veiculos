@@ -1,4 +1,4 @@
-Algoritmo "escolha do veiculo"
+Algoritmo "Escolha do veiculo"
 
 Var
 
@@ -6,10 +6,11 @@ n: inteiro
 
 Inicio
 
-escreval("Tipo de Veiculo")
-escreval("1-terrestre")
-escreval("2-aereo")
-escreval("3-aquatico")
+escreval("Qual o tipo de veículo?")
+escreval ("")
+escreval("1 - Terrestre")
+escreval("2 - Áereo")
+escreval("3 - Aquático")
 leia(n)
 
 limpatela()
@@ -19,55 +20,57 @@ caso 1
 escreval("")
 
 se n=1 entao
-escreval ("1-cabe apenas uma pessoa")
-escreval ("2-usa capacete")
-escreval ("3-tem passageiro")
+escreval ("1 - Cabe apenas uma pessoa.")
+escreval ("2 - É necessário usar capacete.")
+escreval ("3 - Pode ter passageiros.")
 leia (n)
 
 limpatela()
 
 escolha (n)
 caso 2
-escreva ("moto")
+escreva ("A resposta é: MOTO")
 
 caso 1
-escreval ("1-é pesado")
-escreval ("2-tem pedal")
+escreval ("1 - É pesado.")
+escreval ("2 - Tem pedal.")
 leia (n)
+
+limpatela()
 
 escolha (n)
 caso 1
-escreva ("trator")
+escreva ("A resposta é: TRATOR")
 caso 2
-escreva ("bicicleta")
+escreva ("A resposta é: BICICLETA")
 leia (n)
 
 caso 3
-escreval ("1-usa trilho")
-escreval ("2-anda na pista")
+escreval ("1 - Anda em trilhos.")
+escreval ("2 - Anda na pista.")
 leia (n)
 
 escolha (n)
 caso 1
-escreva ("trem")
+escreva ("A resposta é: TREM")
 caso 2
-escreval ("1-é alto")
-escreval ("2-veiculo leve")
+escreval ("1 - É alto.")
+escreval ("2- Veiculo leve.")
 leia (n)
 
 escolha (n)
 caso 2
-escreva ("carro")
+escreva ("A resposta é: CARRO")
 caso 1
-escreval ("1-usa carroceria")
-escreval ("2-pode ter cobrador")
+escreval ("1 - Possui carroceria.")
+escreval ("2- Pode ter cobrador.")
 leia (n)
 
 escolha (n)
 caso 1
-escreva ("caminhão")
+escreva ("A resposta é: CAMINHÃO")
 caso 2
-escreva ("ônibus")
+escreva ("A resposta é ÔNIBUS")
 leia (n)
 
 fimescolha
@@ -82,8 +85,8 @@ caso 2
 escreval("")
 
 se n=2 entao
-escreval ("1-precisa pular")
-escreval ("2-viaja dentro")
+escreval ("1 - Precisa pular.")
+escreval ("2 - Viaja dentro.")
 leia (n)
 fimse
 
@@ -91,26 +94,30 @@ limpatela()
 
 escolha (n)
 caso 1
-escreva ("para quedas")
+escreva ("A resposta é: PARAQUEDAS")
 
 caso 2
-escreval ("1-é devagar")
-escreval ("2-tem piloto")
+escreval ("1 - É devagar.")
+escreval ("2 - Possui piloto.")
 leia (n)
+
+limpatela()
 
 escolha (n)
 caso 1
-escreva ("balão")
+escreva ("A resposta é: BALÃO")
 caso 2
-escreval ("1-possui asas fixas")
-escreval ("2-faz voo vertical")
+escreval ("1 - Possui asas fixas.")
+escreval ("2 - Faz voo vertical.")
 leia (n)
+
+limpatela()
 
 escolha (n)
 caso 1
-escreva ("avião")
+escreva ("A resposta é: AVIÃO")
 caso 2
-escreva ("helicoptero")
+escreva ("A resposta é: HELICOPTERO")
 
 fimescolha
 fimescolha
@@ -120,33 +127,39 @@ caso 3
 escreval("")
 
 se n=3 entao
-escreval ("1-é coberto de agua")
-escreval ("2-navega na agua")
+escreval ("1 - É coberto de água.")
+escreval ("2 - Navega na água.")
 leia (n)
 fimse
 
+limpatela()
+
 escolha (n)
 caso 1
-escreva ("submarino")
+escreva ("A resposta é: SUBMARINO")
 
 caso 2
-escreval ("1-possui vela")
-escreval ("2-tem motor")
+escreval ("1 - Possui vela.")
+escreval ("2 - Possui motor.")
 leia (n)
 
-escolha (n)
-caso 1
-escreva ("barco")
-caso 2
-escreval ("1-é alto")
-escreval ("2-pode ser descoberto")
-leia (n)
+limpatela()
 
 escolha (n)
 caso 1
-escreva ("navio")
+escreva ("A resposta é: BARCO")
 caso 2
-escreva ("lancha")
+escreval ("1 - É alto.")
+escreval ("2 - Pode ser descoberto.")
+leia (n)
+
+limpatela()
+
+escolha (n)
+caso 1
+escreva ("A resposta é: NAVIO.")
+caso 2
+escreva ("A resposta é: LANCHA.")
 leia (n)
 
 fimescolha
